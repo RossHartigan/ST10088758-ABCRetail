@@ -40,20 +40,23 @@
             var tableClient = await GetTableClientAsync("ProductInformation");
             await tableClient.AddEntityAsync(product);
         }
-        public async Task UploadImageAsync(string containerName, string blobName, Stream content)
-        {
-            var containerClient = _blobServiceClient.GetBlobContainerClient(containerName);
-            await containerClient.CreateIfNotExistsAsync(PublicAccessType.Blob);
-            var blobClient = containerClient.GetBlobClient(blobName);
-            await blobClient.UploadAsync(content, overwrite: true);
-        }
 
-        public async Task<Stream> DownloadImageAsync(string containerName, string blobName)
+        public async Task UploadImageAsync(string blobName, Stream content)
         {
+            const string containerName = "product-images"; // Use your existing container name
+
             var containerClient = _blobServiceClient.GetBlobContainerClient(containerName);
+
+            // Ensure container exists (it won't be created if it already exists)
+            await containerClient.CreateIfNotExistsAsync();
+
             var blobClient = containerClient.GetBlobClient(blobName);
-            var response = await blobClient.DownloadAsync();
-            return response.Value.Content;
+
+            // Upload the file
+            await blobClient.UploadAsync(content, overwrite: true);
+
+            // Log successful upload
+            Console.WriteLine($"File uploaded to {blobName} in container {containerName}.");
         }
 
         public async Task AddMessageToQueueAsync(string queueName, string message)
@@ -114,9 +117,10 @@
         public string RowKey { get; set; } // This could be the product ID
         public string Name { get; set; }
         public string Description { get; set; }
-        public decimal Price { get; set; }
+        public double Price { get; set; }
         public DateTimeOffset? Timestamp { get; set; }
         public ETag ETag { get; set; }
     }
+
 
 }

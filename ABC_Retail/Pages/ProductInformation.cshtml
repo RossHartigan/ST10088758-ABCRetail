@@ -1,0 +1,48 @@
+﻿@page
+@model ABC_Retail.Pages.ProductInformationModel
+@{
+    ViewData["Title"] = "Product Information";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <h1>@ViewData["Title"]</h1>
+    </header>
+    <main>
+        <form method="post">
+            <div>
+                <label asp-for="ProductId">Product ID</label>
+                <input asp-for="ProductId" />
+                <span asp-validation-for="ProductId" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Name">Name</label>
+                <input asp-for="Name" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Description">Description</label>
+                <input asp-for="Description" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div>
+                <label asp-for="Price">Price</label>
+                <input asp-for="Price" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 ABC Retail</p>
+    </footer>
+</body>
+</html>

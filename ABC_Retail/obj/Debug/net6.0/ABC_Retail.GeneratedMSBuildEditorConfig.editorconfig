@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/CustomerProfiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJQcm9maWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,8 +32,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/ProductInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdEluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/UploadFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkRmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/UploadMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/UploadQueueMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBsb2FkUXVldWVNZXNzYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/_ViewImports.cshtml]

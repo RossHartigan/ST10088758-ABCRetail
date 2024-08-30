@@ -1,0 +1,45 @@
+﻿@page
+@model ABC_Retail.Pages.UploadQueueMessageModel
+@{
+    ViewData["Title"] = "Upload Queue Message";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+
+    <header>
+        <h1>@ViewData["Title"]</h1>
+    </header>
+
+    <form method="post">
+        <div class="form-group">
+            <label for="Message">Message:</label>
+            <input type="text" id="Message" name="Message" class="form-control" />
+            <span asp-validation-for="Message" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Send to Queue" class="btn btn-primary" />
+        </div>
+        @if (Model.UploadSuccess != null)
+        {
+            <div class="alert alert-success">
+                @Model.UploadSuccess
+            </div>
+        }
+        @if (Model.UploadError != null)
+        {
+            <div class="alert alert-danger">
+                @Model.UploadError
+            </div>
+        }
+    </form>
+</body>
+</html>
+
