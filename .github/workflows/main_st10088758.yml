@@ -22,7 +22,7 @@ jobs:
         run: dotnet build ABC_Retail.sln --configuration Release
 
       - name: Publish with dotnet
-        run: dotnet publish ABC_Retail.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
+        run: dotnet publish C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\ABC_Retail.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
