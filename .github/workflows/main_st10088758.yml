@@ -19,7 +19,7 @@ jobs:
           dotnet-version: '6.0'
 
       - name: Build with dotnet
-        run: dotnet build ABC_Retail.sln --configuration Release
+        run: dotnet build C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\ABC_Retail.sln --configuration Release
 
       - name: Publish with dotnet
         run: dotnet publish C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\ABC_Retail.sln -c Release -o ${{env.DOTNET_ROOT}}/myapp
