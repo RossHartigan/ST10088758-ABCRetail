@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="ST10088758" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\rossh\\OneDrive\ -\ ADvTECH\ Ltd\\Varsity\\Year\ 4\\Cloud\\Sem\ 2\\POE\\Web\ App\\ABC_Retail\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

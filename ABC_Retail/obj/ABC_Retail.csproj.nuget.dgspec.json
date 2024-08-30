@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj",
+        "projectName": "ABC_Retail",
+        "projectPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj",
+        "packagesPath": "C:\\Users\\rossh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\rossh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Azure.Data.Tables": {
+              "target": "Package",
+              "version": "[12.9.0, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.21.2, )"
+            },
+            "Azure.Storage.Files.Shares": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.19.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
