@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj": {}
+    "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\ABC_Retail.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj": {
+    "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\ABC_Retail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj",
+        "projectUniqueName": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\ABC_Retail.csproj",
         "projectName": "ABC_Retail",
-        "projectPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\ABC_Retail.csproj",
+        "projectPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\ABC_Retail.csproj",
         "packagesPath": "C:\\Users\\rossh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ABC_Retail\\obj\\",
+        "outputPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rossh\\AppData\\Roaming\\NuGet\\NuGet.Config",

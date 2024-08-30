@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ABC_Retail
 build_property.RootNamespace = ABC_Retail
-build_property.ProjectDir = C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ABC_Retail\
+build_property.ProjectDir = C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ABC_Retail
+build_property.MSBuildProjectDirectory = C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/Error.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/Index.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/Privacy.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/_ViewImports.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/_ViewStart.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ABC_Retail/Pages/Shared/_Layout.cshtml]
+[C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-6e2wsmf21h
