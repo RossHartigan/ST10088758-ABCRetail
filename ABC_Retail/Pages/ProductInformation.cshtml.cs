@@ -59,7 +59,7 @@ namespace ABC_Retail.Pages
 
             await _tableClient.AddEntityAsync(productEntity);
 
-            return RedirectToPage("/Index"); // Redirect to refresh the page
+            return RedirectToPage("/Index");
         }
     }
 }

@@ -13,9 +13,21 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
+
     <header>
         <h1>@ViewData["Title"]</h1>
+        <nav>
+            <ul>
+                <li><a asp-page="/Index">Home</a></li>
+                <li><a asp-page="/CustomerProfiles">Customer Profiles</a></li>
+                <li><a asp-page="/ProductInformation">Product Information</a></li>
+                <li><a asp-page="/UploadMedia">Upload Media</a></li>
+                <li><a asp-page="/UploadFile">Upload File</a></li>
+                <li><a asp-page="/UploadQueueMessage">Upload Queue</a></li>
+            </ul>
+        </nav>
     </header>
+
     <main>
         <form method="post">
             <div>
