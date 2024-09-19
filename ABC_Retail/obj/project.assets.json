@@ -642,27 +642,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rossh\\.nuget\\packages\\": {}
+    "/Users/rosshartigan/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\ABC_Retail.csproj",
+      "projectUniqueName": "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/ABC_Retail.csproj",
       "projectName": "ABC_Retail",
-      "projectPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\ABC_Retail.csproj",
-      "packagesPath": "C:\\Users\\rossh\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\obj\\",
+      "projectPath": "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/ABC_Retail.csproj",
+      "packagesPath": "/Users/rosshartigan/.nuget/packages/",
+      "outputPath": "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\rossh\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/rosshartigan/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -722,7 +719,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }
