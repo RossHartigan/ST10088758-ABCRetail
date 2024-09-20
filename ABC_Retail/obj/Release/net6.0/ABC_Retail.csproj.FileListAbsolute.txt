@@ -78,9 +78,10 @@ C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST1
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\scopedcss\bundle\ABC_Retail.styles.css
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\scopedcss\projectbundle\ABC_Retail.bundle.scp.css
-C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ABC_Retail.csproj.CopyComplete
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ABC_Retail.dll
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\refint\ABC_Retail.dll
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ABC_Retail.pdb
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ABC_Retail.genruntimeconfig.cache
 C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ref\ABC_Retail.dll
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ABC_Retail.sourcelink.json
+C:\Users\rossh\OneDrive - ADvTECH Ltd\Varsity\Year 4\Cloud\Sem 2\POE\Web App\ST10088758-ABCRetail\ABC_Retail\obj\Release\net6.0\ABC_Retail.csproj.Up2Date
