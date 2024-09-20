@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|c:\\users\\rossh\\onedrive - advtech ltd\\varsity\\year 4\\cloud\\sem 2\\poe\\web app\\st10088758-abcretail\\abc_retail\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|c:\\users\\rossh\\onedrive - advtech ltd\\varsity\\year 4\\cloud\\sem 2\\poe\\web app\\st10088758-abcretail\\abc_retail\\pages\\customerprofiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|solutionrelative:pages\\customerprofiles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|c:\\users\\rossh\\onedrive - advtech ltd\\varsity\\year 4\\cloud\\sem 2\\poe\\web app\\st10088758-abcretail\\abc_retail\\pages\\uploadqueuemessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|solutionrelative:pages\\uploadqueuemessage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|c:\\users\\rossh\\onedrive - advtech ltd\\varsity\\year 4\\cloud\\sem 2\\poe\\web app\\st10088758-abcretail\\abc_retail\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{85CE65C5-64C4-4A63-94F0-C5F540785335}|ABC_Retail.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -37,20 +37,25 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\Index.cshtml",
               "RelativeDocumentMoniker": "Pages\\Index.cshtml",
               "ToolTip": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\Index.cshtml",
               "RelativeToolTip": "Pages\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-30T14:05:00.093Z"
+              "WhenOpened": "2024-08-30T14:05:00.093Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CustomerProfiles.cshtml",
               "DocumentMoniker": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\CustomerProfiles.cshtml",
               "RelativeDocumentMoniker": "Pages\\CustomerProfiles.cshtml",
@@ -63,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UploadQueueMessage.cshtml",
               "DocumentMoniker": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\UploadQueueMessage.cshtml",
               "RelativeDocumentMoniker": "Pages\\UploadQueueMessage.cshtml",
@@ -75,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UploadMedia.cshtml",
               "DocumentMoniker": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\UploadMedia.cshtml",
               "RelativeDocumentMoniker": "Pages\\UploadMedia.cshtml",
@@ -87,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UploadFile.cshtml",
               "DocumentMoniker": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\UploadFile.cshtml",
               "RelativeDocumentMoniker": "Pages\\UploadFile.cshtml",
@@ -99,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductInformation.cshtml",
               "DocumentMoniker": "C:\\Users\\rossh\\OneDrive - ADvTECH Ltd\\Varsity\\Year 4\\Cloud\\Sem 2\\POE\\Web App\\ST10088758-ABCRetail\\ABC_Retail\\Pages\\ProductInformation.cshtml",
               "RelativeDocumentMoniker": "Pages\\ProductInformation.cshtml",
