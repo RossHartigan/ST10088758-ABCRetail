@@ -1,0 +1,67 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ABC_Retail
+build_property.RootNamespace = ABC_Retail
+build_property.ProjectDir = /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/CustomerProfiles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3VzdG9tZXJQcm9maWxlcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/ProductInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJvZHVjdEluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/UploadFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkRmlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/UploadMedia.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkTWVkaWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/UploadQueueMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVXBsb2FkUXVldWVNZXNzYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-pt3vvb62av
