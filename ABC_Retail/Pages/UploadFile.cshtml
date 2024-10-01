@@ -33,18 +33,22 @@
     <form method="post" enctype="multipart/form-data">
         <div class="form-group">
             <label for="File">Select file:</label>
-            <input type="file" id="File" name="File" />
+            <!-- Set the name to "File" to match Azure Function -->
+            <input type="file" id="File" name="File" class="form-control" />
             <span asp-validation-for="File" class="text-danger"></span>
         </div>
+
         <div class="form-group">
             <input type="submit" value="Upload" class="btn btn-primary" />
         </div>
+
         @if (Model.UploadSuccess != null)
         {
             <div class="alert alert-success">
                 @Model.UploadSuccess
             </div>
         }
+
         @if (Model.UploadError != null)
         {
             <div class="alert alert-danger">
