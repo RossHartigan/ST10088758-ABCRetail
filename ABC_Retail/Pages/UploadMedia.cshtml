@@ -6,12 +6,14 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body>
 
     <header>
@@ -30,13 +32,14 @@
 
     <form method="post" enctype="multipart/form-data">
         <div class="form-group">
-            <label for="File">Select file:</label>
-            <input type="file" id="File" name="File" />
-            <span asp-validation-for="File" class="text-danger"></span>
+            <label for="Image">Select file:</label>
+            <input type="file" id="Image" name="Image" />
+            <span asp-validation-for="Image" class="text-danger"></span>
         </div>
         <div class="form-group">
             <label for="ContainerName">Container Name:</label>
-            <input type="text" id="ContainerName" name="ContainerName" class="form-control" value="product-images" readonly />
+            <input type="text" id="ContainerName" name="ContainerName" class="form-control" value="product-images"
+                readonly />
             <span asp-validation-for="ContainerName" class="text-danger"></span>
         </div>
         <div class="form-group">
@@ -57,4 +60,5 @@
     </form>
 
 </body>
+
 </html>

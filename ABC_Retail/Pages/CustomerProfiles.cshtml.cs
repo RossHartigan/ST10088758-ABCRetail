@@ -13,7 +13,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<CustomerProfilesModel> _logger;
-        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/AddCustomerToTable?code=-NQZqrNYS6Rbs6qynViMo8cIVQewenouNET-YtjRfJFeAzFu2jYTBA%3D%3D";
+        private readonly string _functionUrl = "http://localhost:7071/api/AddCustomerToTable";
 
         public CustomerProfilesModel(IHttpClientFactory httpClientFactory, ILogger<CustomerProfilesModel> logger)
         {

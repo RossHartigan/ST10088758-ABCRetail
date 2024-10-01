@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Http;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+using System.IO;
 
 namespace ABC_Retail.Pages
 {
@@ -11,7 +12,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<UploadMediaModel> _logger;
-        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/UploadProductImage?code=skMdb_aG_-RXHVsiL0kKfJ2OM18D1dj_PBTftTlhuEc3AzFu3Y0gqg%3D%3D";
+        private readonly string _functionUrl = "http://localhost:7071/api/UploadProductImage";  // Change to Azure URL in production
 
         public UploadMediaModel(IHttpClientFactory httpClientFactory, ILogger<UploadMediaModel> logger)
         {
@@ -20,7 +21,7 @@ namespace ABC_Retail.Pages
         }
 
         [BindProperty]
-        public new IFormFile File { get; set; } = default!;
+        public IFormFile Image { get; set; } = default!; // Match this name with the expected field name in the Azure Function
 
         [BindProperty]
         public string ContainerName { get; set; } = "product-images";
@@ -28,10 +29,9 @@ namespace ABC_Retail.Pages
         public string UploadSuccess { get; set; } = string.Empty;
         public string UploadError { get; set; } = string.Empty;
 
-
         public async Task<IActionResult> OnPostAsync()
         {
-            if (File == null || File.Length == 0)
+            if (Image == null || Image.Length == 0)  // Ensure we check the correct property name
             {
                 UploadError = "No file selected.";
                 return Page();
@@ -41,12 +41,13 @@ namespace ABC_Retail.Pages
             {
                 using (var memoryStream = new MemoryStream())
                 {
-                    await File.CopyToAsync(memoryStream);
+                    await Image.CopyToAsync(memoryStream);
                     var content = new ByteArrayContent(memoryStream.ToArray());
 
                     var httpClient = _httpClientFactory.CreateClient();
                     var formData = new MultipartFormDataContent();
-                    formData.Add(content, "file", File.FileName);
+
+                    formData.Add(content, "image", Image.FileName);
 
                     var response = await httpClient.PostAsync(_functionUrl, formData);
                     var responseContent = await response.Content.ReadAsStringAsync();

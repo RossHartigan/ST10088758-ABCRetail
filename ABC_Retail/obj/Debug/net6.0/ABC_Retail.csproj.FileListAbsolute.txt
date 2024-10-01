@@ -84,23 +84,8 @@ C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST1
 C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/obj/Debug/net6.0/ABC_Retail.pdb
 C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/obj/Debug/net6.0/ABC_Retail.genruntimeconfig.cache
 C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST10088758-ABCRetail/ABC_Retail/obj/Debug/net6.0/ref/ABC_Retail.dll
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/publish/web.config
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/web.config
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/web.config
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/appsettings.Development.json
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/appsettings.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/ABC_Retail.deps.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/ABC_Retail.runtimeconfig.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/appsettings.Development.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/appsettings.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/ABC_Retail.deps.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/ABC_Retail.runtimeconfig.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/appsettings.Development.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/appsettings.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/publish/ABC_Retail.deps.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/publish/ABC_Retail.runtimeconfig.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/publish/appsettings.Development.json
-/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish/publish/publish/appsettings.json
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/ABC_Retail.staticwebassets.runtime.json
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/ABC_Retail
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/ABC_Retail.deps.json
@@ -144,3 +129,18 @@ C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST1
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/obj/Debug/net6.0/ABC_Retail.pdb
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/obj/Debug/net6.0/ABC_Retail.genruntimeconfig.cache
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/obj/Debug/net6.0/ref/ABC_Retail.dll
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/publish/web.config
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/web.config
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/web.config
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/ABC_Retail.deps.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/appsettings.Development.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/appsettings.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/ABC_Retail.deps.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/appsettings.Development.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/appsettings.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/publish/ABC_Retail.deps.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/publish/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/publish/appsettings.Development.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Debug/net6.0/publish 2/publish/publish/appsettings.json
