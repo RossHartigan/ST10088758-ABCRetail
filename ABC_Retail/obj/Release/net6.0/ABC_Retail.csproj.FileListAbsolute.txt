@@ -143,3 +143,4 @@ C:/Users/rossh/OneDrive - ADvTECH Ltd/Varsity/Year 4/Cloud/Sem 2/POE/Web App/ST1
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/publish/publish/appsettings.Development.json
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/publish/publish/appsettings.json
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/publish/publish/ABC_Retail.deps.json
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/Newtonsoft.Json.dll

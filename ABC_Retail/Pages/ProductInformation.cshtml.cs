@@ -1,23 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using System.Collections.Generic;
-using System.Threading.Tasks;
-using Azure.Data.Tables;
 using System.ComponentModel.DataAnnotations;
-using ABC_Retail.Services;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Microsoft.Extensions.Logging;
 
 namespace ABC_Retail.Pages
 {
     public class ProductInformationModel : PageModel
     {
-        private readonly TableServiceClient _tableServiceClient;
-        private readonly TableClient _tableClient;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<ProductInformationModel> _logger;
+        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/AddProductToTable?code=wCDH9pRvoy5eyWPq-hU1pZ9iEJRmsIyvhzXeTqY4uDmcAzFuSHzoUg%3D%3D";
 
-        public ProductInformationModel(TableServiceClient tableServiceClient)
+        public ProductInformationModel(IHttpClientFactory httpClientFactory, ILogger<ProductInformationModel> logger)
         {
-            _tableServiceClient = tableServiceClient;
-            _tableClient = _tableServiceClient.GetTableClient("ProductInformation");
+            _httpClientFactory = httpClientFactory;
+            _logger = logger;
         }
 
         [BindProperty]
@@ -36,11 +37,8 @@ namespace ABC_Retail.Pages
         [Required]
         public double Price { get; set; }
 
-        public List<ProductInformation> Products { get; set; } = new List<ProductInformation>();
-
         public void OnGet()
         {
-            
         }
 
         public async Task<IActionResult> OnPostAsync()
@@ -50,14 +48,27 @@ namespace ABC_Retail.Pages
                 return Page();
             }
 
-            var productEntity = new TableEntity(ProductId, ProductId)
+            var product = new
             {
-                {"Name", Name },
-                {"Description", Description},
-                {"Price", Price}
+                PartitionKey = ProductId,
+                Name = Name,
+                Description = Description,
+                Price = Price
             };
 
-            await _tableClient.AddEntityAsync(productEntity);
+            var httpClient = _httpClientFactory.CreateClient();
+            var jsonContent = new StringContent(JsonConvert.SerializeObject(product), Encoding.UTF8, "application/json");
+
+            var response = await httpClient.PostAsync(_functionUrl, jsonContent);
+            var responseContent = await response.Content.ReadAsStringAsync();
+            _logger.LogInformation($"Azure Function Response: {responseContent}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogError("Failed to add product.");
+                ModelState.AddModelError(string.Empty, "Failed to add product.");
+                return Page();
+            }
 
             return RedirectToPage("/Index");
         }

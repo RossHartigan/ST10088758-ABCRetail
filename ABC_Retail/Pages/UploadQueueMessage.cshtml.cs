@@ -1,18 +1,23 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
-using Azure.Storage.Queues;
-using Azure.Storage.Queues.Models;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 
 namespace ABC_Retail.Pages
 {
     public class UploadQueueMessageModel : PageModel
     {
-        private readonly QueueServiceClient _queueServiceClient;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<UploadQueueMessageModel> _logger;
+        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/QueueOrder?code=E03tmshdf2KkmqIAb6LYoa4nnij1Fh_fAhyNVQdGod8KAzFuHD-zVQ%3D%3D";
 
-        public UploadQueueMessageModel(QueueServiceClient queueServiceClient)
+        public UploadQueueMessageModel(IHttpClientFactory httpClientFactory, ILogger<UploadQueueMessageModel> logger)
         {
-            _queueServiceClient = queueServiceClient;
+            _httpClientFactory = httpClientFactory;
+            _logger = logger;
         }
 
         [BindProperty]
@@ -20,10 +25,6 @@ namespace ABC_Retail.Pages
 
         public string UploadSuccess { get; set; }
         public string UploadError { get; set; }
-
-        public void OnGet()
-        {
-        }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -33,21 +34,23 @@ namespace ABC_Retail.Pages
                 return Page();
             }
 
-            try
+            var message = new { Message };
+
+            var httpClient = _httpClientFactory.CreateClient();
+            var jsonContent = new StringContent(JsonConvert.SerializeObject(message), Encoding.UTF8, "application/json");
+
+            var response = await httpClient.PostAsync(_functionUrl, jsonContent);
+            var responseContent = await response.Content.ReadAsStringAsync();
+
+            _logger.LogInformation($"Azure Function Response: {responseContent}");
+
+            if (!response.IsSuccessStatusCode)
             {
-                var queueClient = _queueServiceClient.GetQueueClient("order-processing");
-                await queueClient.CreateIfNotExistsAsync();
-
-                // Send the message to the queue
-                await queueClient.SendMessageAsync(Message);
-
-                UploadSuccess = "Message uploaded successfully.";
-            }
-            catch (Exception ex)
-            {
-                UploadError = $"Error uploading message: {ex.Message}";
+                UploadError = $"Error uploading message: {responseContent}";
+                return Page();
             }
 
+            UploadSuccess = "Message uploaded successfully.";
             return Page();
         }
     }

@@ -1,20 +1,24 @@
-using Azure.Data.Tables;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.ComponentModel.DataAnnotations;
+using System.Net.Http;
+using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
+using Microsoft.Extensions.Logging;
 
 namespace ABC_Retail.Pages
 {
     public class CustomerProfilesModel : PageModel
     {
-        private readonly TableServiceClient _tableServiceClient;
-        private readonly TableClient _tableClient;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<CustomerProfilesModel> _logger;
+        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/AddCustomerToTable?code=-NQZqrNYS6Rbs6qynViMo8cIVQewenouNET-YtjRfJFeAzFu2jYTBA%3D%3D";
 
-        public CustomerProfilesModel(TableServiceClient tableServiceClient)
+        public CustomerProfilesModel(IHttpClientFactory httpClientFactory, ILogger<CustomerProfilesModel> logger)
         {
-            _tableServiceClient = tableServiceClient;
-            _tableClient = _tableServiceClient.GetTableClient("CustomerProfiles");
+            _httpClientFactory = httpClientFactory;
+            _logger = logger;
         }
 
         [BindProperty]
@@ -39,21 +43,41 @@ namespace ABC_Retail.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
+            _logger.LogInformation("Form submitted with values: CustomerId={CustomerId}, Name={Name}, Email={Email}, Phone={Phone}", CustomerId, Name, Email, Phone);
+
             if (!ModelState.IsValid)
             {
+                _logger.LogWarning("Model state is invalid.");
                 return Page();
             }
 
-            var customerEntity = new TableEntity(CustomerId, CustomerId)
+            // Create an object to send to the Azure Function
+            var customer = new
             {
-                {"Name", Name},
-                {"Email", Email},
-                {"Phone", Phone}
+                PartitionKey = CustomerId,
+                Name = Name,
+                Email = Email,
+                Phone = Phone
             };
 
-            await _tableClient.AddEntityAsync(customerEntity);
+            var httpClient = _httpClientFactory.CreateClient();
+            var jsonContent = new StringContent(JsonConvert.SerializeObject(customer), Encoding.UTF8, "application/json");
 
-            return RedirectToPage("/Index"); // Redirect to a page or confirmation view after successful submission
+            // Send POST request to Azure Function
+            var response = await httpClient.PostAsync(_functionUrl, jsonContent);
+
+            var responseContent = await response.Content.ReadAsStringAsync();
+            _logger.LogInformation($"Azure Function Response: {responseContent}");
+
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogError($"Failed to add customer. Status Code: {response.StatusCode}, Response: {responseContent}");
+                ModelState.AddModelError(string.Empty, "Failed to add customer.");
+                return Page();
+            }
+
+            _logger.LogInformation("Customer added successfully.");
+            return RedirectToPage("/Index");
         }
     }
 }

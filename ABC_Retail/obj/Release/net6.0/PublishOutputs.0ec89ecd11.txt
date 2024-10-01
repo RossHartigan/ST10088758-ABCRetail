@@ -27,6 +27,7 @@
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/Azure.Storage.Files.Shares.dll
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/Azure.Storage.Queues.dll
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/Newtonsoft.Json.dll
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/System.ClientModel.dll
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/System.Diagnostics.DiagnosticSource.dll
 /Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/bin/Release/net6.0/publish/System.IO.Hashing.dll

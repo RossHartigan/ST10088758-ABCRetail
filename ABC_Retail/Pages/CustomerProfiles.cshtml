@@ -29,9 +29,9 @@
     </header>
 
     <main>
-        <form method="post">
+        <form method="post">  <!-- Ensure method is POST -->
             <div>
-                <label asp-for="CustomerId">Customer ID</label>
+                <label asp-for="CustomerId"> ID</label>
                 <input asp-for="CustomerId" />
                 <span asp-validation-for="CustomerId" class="text-danger"></span>
             </div>

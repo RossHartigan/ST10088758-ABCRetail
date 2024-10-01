@@ -1,33 +1,33 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Azure.Storage.Blobs;
-using System.IO;
+using Microsoft.AspNetCore.Http;
+using System.Net.Http;
 using System.Threading.Tasks;
-
+using Microsoft.Extensions.Logging;
 
 namespace ABC_Retail.Pages
 {
     public class UploadMediaModel : PageModel
     {
-        private readonly BlobServiceClient _blobServiceClient;
+        private readonly IHttpClientFactory _httpClientFactory;
+        private readonly ILogger<UploadMediaModel> _logger;
+        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/UploadProductImage?code=skMdb_aG_-RXHVsiL0kKfJ2OM18D1dj_PBTftTlhuEc3AzFu3Y0gqg%3D%3D";
 
-        public UploadMediaModel(BlobServiceClient blobServiceClient)
+        public UploadMediaModel(IHttpClientFactory httpClientFactory, ILogger<UploadMediaModel> logger)
         {
-            _blobServiceClient = blobServiceClient;
+            _httpClientFactory = httpClientFactory;
+            _logger = logger;
         }
 
         [BindProperty]
-        public IFormFile File { get; set; }
+        public new IFormFile File { get; set; } = default!;
 
         [BindProperty]
         public string ContainerName { get; set; } = "product-images";
 
-        public string UploadSuccess { get; set; }
-        public string UploadError { get; set; }
+        public string UploadSuccess { get; set; } = string.Empty;
+        public string UploadError { get; set; } = string.Empty;
 
-        public void OnGet()
-        {
-        }
 
         public async Task<IActionResult> OnPostAsync()
         {
@@ -39,29 +39,35 @@ namespace ABC_Retail.Pages
 
             try
             {
-                using (var stream = File.OpenReadStream())
+                using (var memoryStream = new MemoryStream())
                 {
-                    await UploadImageAsync(File.FileName, stream);
+                    await File.CopyToAsync(memoryStream);
+                    var content = new ByteArrayContent(memoryStream.ToArray());
+
+                    var httpClient = _httpClientFactory.CreateClient();
+                    var formData = new MultipartFormDataContent();
+                    formData.Add(content, "file", File.FileName);
+
+                    var response = await httpClient.PostAsync(_functionUrl, formData);
+                    var responseContent = await response.Content.ReadAsStringAsync();
+
+                    _logger.LogInformation($"Azure Function Response: {responseContent}");
+
+                    if (!response.IsSuccessStatusCode)
+                    {
+                        UploadError = $"Error uploading file: {responseContent}";
+                        return Page();
+                    }
+
+                    UploadSuccess = "File uploaded successfully!";
                 }
-                UploadSuccess = "File uploaded successfully.";
             }
             catch (Exception ex)
             {
                 UploadError = $"Error uploading file: {ex.Message}";
             }
 
-            return RedirectToPage("/Index");
-        }
-
-        private async Task UploadImageAsync(string blobName, Stream content)
-        {
-            const string containerName = "product-images";
-
-            var containerClient = _blobServiceClient.GetBlobContainerClient(containerName);
-            await containerClient.CreateIfNotExistsAsync(); // Ensure container exists
-
-            var blobClient = containerClient.GetBlobClient(blobName);
-            await blobClient.UploadAsync(content, overwrite: true);
+            return Page();
         }
     }
 }

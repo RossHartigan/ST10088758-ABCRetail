@@ -18,6 +18,7 @@ builder.Services.AddSingleton(new AzureStorageService(connectionString));
 builder.Services.AddSingleton(new BlobServiceClient(connectionString));
 builder.Services.AddSingleton(new ShareServiceClient(connectionString));
 builder.Services.AddSingleton(new QueueServiceClient(connectionString));
+builder.Services.AddHttpClient();
 
 var app = builder.Build();
 
