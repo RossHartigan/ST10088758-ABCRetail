@@ -12,7 +12,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<UploadMediaModel> _logger;
-        private readonly string _functionUrl = "http://localhost:7071/api/UploadProductImage";  // Change to Azure URL in production
+        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/UploadProductImage?code=skMdb_aG_-RXHVsiL0kKfJ2OM18D1dj_PBTftTlhuEc3AzFu3Y0gqg%3D%3D";
 
         public UploadMediaModel(IHttpClientFactory httpClientFactory, ILogger<UploadMediaModel> logger)
         {
@@ -21,7 +21,7 @@ namespace ABC_Retail.Pages
         }
 
         [BindProperty]
-        public IFormFile Image { get; set; } = default!; // Match this name with the expected field name in the Azure Function
+        public IFormFile Image { get; set; } = default!;
 
         [BindProperty]
         public string ContainerName { get; set; } = "product-images";
@@ -31,7 +31,7 @@ namespace ABC_Retail.Pages
 
         public async Task<IActionResult> OnPostAsync()
         {
-            if (Image == null || Image.Length == 0)  // Ensure we check the correct property name
+            if (Image == null || Image.Length == 0)
             {
                 UploadError = "No file selected.";
                 return Page();

@@ -6,12 +6,14 @@
 
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
+
 <body>
 
     <header>
@@ -29,7 +31,7 @@
     </header>
 
     <main>
-        <form method="post">  <!-- Ensure method is POST -->
+        <form method="post">
             <div>
                 <label asp-for="CustomerId"> ID</label>
                 <input asp-for="CustomerId" />
@@ -57,4 +59,5 @@
         <p>&copy; 2024 ABC Retail</p>
     </footer>
 </body>
+
 </html>

@@ -12,8 +12,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<UploadFileModel> _logger;
-        // Use localhost during local testing. Replace with Azure Function URL in production.
-        private readonly string _functionUrl = "http://localhost:7071/api/UploadContract";  // For production: use the Azure Function URL here
+        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/UploadContract?code=uR-5HDSvD_AD30nhUD2SHOIfVjCXxhOG4x53Ef_wwIBEAzFuTAkayg%3D%3D";
 
         public UploadFileModel(IHttpClientFactory httpClientFactory, ILogger<UploadFileModel> logger)
         {
