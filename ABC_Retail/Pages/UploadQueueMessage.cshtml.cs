@@ -12,7 +12,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<UploadQueueMessageModel> _logger;
-        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/QueueOrder?code=ZKFkATxWEpIpCN3LavGV4fycKdK0CSXkniJuKoeQpwCsAzFu3yBUlA%3D%3D";
+        private readonly string _functionUrl = "https://abc-retail-function-st10088758.azurewebsites.net/api/QueueOrder?code=wQFxQRxKBbL40EY-HtmDqB-YfJNilmpmBRfcB9dxs4fLAzFurCvjaw%3D%3D";
 
         public UploadQueueMessageModel(IHttpClientFactory httpClientFactory, ILogger<UploadQueueMessageModel> logger)
         {

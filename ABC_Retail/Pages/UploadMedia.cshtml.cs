@@ -12,7 +12,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<UploadMediaModel> _logger;
-        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/UploadProductImage?code=XdKPu2ssW0-Uv9X3F7I-mSjCpuqwTQzAa6bkyAuDLTfyAzFur2DmZQ%3D%3D";
+        private readonly string _functionUrl = "https://abc-retail-function-st10088758.azurewebsites.net/api/UploadProductImage?code=BHgT0qYuk3kpr5RlAneh33u5AEHvo6BkqxfahAkjzFLwAzFub8DSZQ%3D%3D";
 
         public UploadMediaModel(IHttpClientFactory httpClientFactory, ILogger<UploadMediaModel> logger)
         {

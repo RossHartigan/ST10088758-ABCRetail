@@ -13,7 +13,7 @@ namespace ABC_Retail.Pages
     {
         private readonly IHttpClientFactory _httpClientFactory;
         private readonly ILogger<ProductInformationModel> _logger;
-        private readonly string _functionUrl = "https://abc-retail-functions.azurewebsites.net/api/AddProductToTable?code=DLqGJ-oRTyaxYDmv35gipu2NnALi15_eday6YSxvixRkAzFu-y6dUg%3D%3D";
+        private readonly string _functionUrl = "https://abc-retail-function-st10088758.azurewebsites.net/api/AddProductToTable?code=gk9ELbjsRgAjRV_ZHpOZpwl8Yir37jp8m1pJPcWNUR0WAzFuo32lFw%3D%3D";
 
         public ProductInformationModel(IHttpClientFactory httpClientFactory, ILogger<ProductInformationModel> logger)
         {

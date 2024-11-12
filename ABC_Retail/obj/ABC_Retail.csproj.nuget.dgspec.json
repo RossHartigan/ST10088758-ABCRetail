@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/ABC_Retail.csproj": {}
+    "/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/ABC_Retail.csproj": {}
   },
   "projects": {
-    "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/ABC_Retail.csproj": {
+    "/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/ABC_Retail.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/ABC_Retail.csproj",
+        "projectUniqueName": "/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/ABC_Retail.csproj",
         "projectName": "ABC_Retail",
-        "projectPath": "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/ABC_Retail.csproj",
+        "projectPath": "/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/ABC_Retail.csproj",
         "packagesPath": "/Users/rosshartigan/.nuget/packages/",
-        "outputPath": "/Users/rosshartigan/Documents/VS Code Apps/ABC Retail/Untitled/ABC_Retail/obj/",
+        "outputPath": "/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/rosshartigan/.nuget/NuGet/NuGet.Config"
