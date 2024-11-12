@@ -1,4 +1,5 @@
 {
   "appService.preDeployTask": "publish-release",
-  "appService.deploySubpath": "ABC_Retail/bin/Release/net6.0/publish"
+  "appService.deploySubpath": "ABC_Retail/bin/Release/net6.0/publish",
+  "appService.defaultWebAppToDeploy": "None"
 }
