@@ -1,0 +1,34 @@
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/ABC_Retail
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/publish/web.config
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/web.config
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/web.config
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/appsettings.Development.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/appsettings.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/ABC_Retail.deps.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/appsettings.Development.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/appsettings.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/ABC_Retail.deps.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/appsettings.Development.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/appsettings.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/publish/ABC_Retail.deps.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/publish/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/publish/appsettings.Development.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/publish 2/publish/publish/appsettings.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/ABC_Retail.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/ABC_Retail.deps.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/ABC_Retail.runtimeconfig.json
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/ABC_Retail.pdb
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Azure.Core.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Azure.Data.Tables.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Azure.Storage.Blobs.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Azure.Storage.Common.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Azure.Storage.Files.Shares.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Azure.Storage.Queues.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/Newtonsoft.Json.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/System.ClientModel.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/System.Diagnostics.DiagnosticSource.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/System.IO.Hashing.dll
+/Users/rosshartigan/Desktop/ST10088758-ABCRetail/ABC_Retail/bin/Release/net6.0/publish/System.Memory.Data.dll
